@@ -11,13 +11,13 @@ const ytSearch = require('yt-search');
 const ytdl = require('ytdl-core-muxer');
 
 // 👑 बोट की कस्टमाइज़ेशन सेटिंग्स
-const BOT_NAME = "DARK-O"; 
-const OWNER_NAME = "PRIME-X";
-// ⚠️ यहाँ अपना असली व्हाट्सएप नंबर कंट्री कोड '91' के साथ डालें (जैसे: "91XXXXXXXXXX@s.whatsapp.net")
-const OWNER_NUMBER = "91XXXXXXXXXX@s.whatsapp.net"; 
+const BOT_NAME = "ॐ❍𝐁𝐈𝐓❍°❤️𝆺꯭𝅥⎯‌꯭"; 
+const OWNER_NAME = "P ｒｉｍｅ－Ｘᝰ..ᐟ.ᐟ";
+// ⚠️ यहाँ अपना असली व्हाट्सएप नंबर कंट्री कोड '91' के साथ डालें (जैसे: "919800378187@s.whatsapp.net")
+const OWNER_NUMBER = "919800378187@s.whatsapp.net"; 
 
-const MENU_IMAGE_URL = "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800"; 
-const CHANNEL_LINK = "https://whatsapp.com/channel/YourChannelLinkHere"; 
+const MENU_IMAGE_URL = "https://kommodo.ai/i/jk9yFOZNL7CrnoZYKVKr"; 
+const CHANNEL_LINK = "https://whatsapp.com/channel/0029Vb7kF10HgZWjQhQape0M"; 
 
 async function startBot() {
     const { state, saveCreds } = await useMultiFileAuthState('darko_session');
@@ -128,7 +128,7 @@ async function startBot() {
             if (command === 'join') {
                 const targetNumber = args[0];
                 if (!targetNumber || isNaN(targetNumber)) {
-                    return sock.sendMessage(from, { text: `❌ *गलत फॉर्मेट!* \n\nसही तरीका: ` + '`!join 91XXXXXXXXXX`' + ` (कंट्री कोड के साथ नंबर लिखें)` });
+                    return sock.sendMessage(from, { text: `❌ *गलत फॉर्मेट!* \n\nसही तरीका: ` + '`!join 919800378187`' + ` (कंट्री कोड के साथ नंबर लिखें)` });
                 }
 
                 await sock.sendMessage(from, { text: `⏳ *${BOT_NAME} सिस्टम:* नंबर (${targetNumber}) को लिंक किया जा रहा है... कृपया ग्रुप चैट में आने वाले कोड का इंतज़ार करें।` });
