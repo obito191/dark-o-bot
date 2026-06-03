@@ -10,8 +10,8 @@ const { Boom } = require('@hapi/boom');
 const ytSearch = require('yt-search');
 const ytdl = require('ytdl-core-muxer');
 
-const BOT_NAME = "ॐ❍𝐁𝐈𝐓❍°❤️𝆺꯭𝅥⎯‌꯭"; 
-const OWNER_NAME = "P ｒｉｍｅ－Ｘᝰ..ᐟ.ᐟ";
+const BOT_NAME = "ॐ𝐂𝐀𝐍𝐃𝐘°❤️𝆺꯭𝅥⎯‌꯭"; 
+const OWNER_NAME = "P－Ｘᝰ..ᐟ.ᐟ";
 const OWNER_NUMBER = "91XXXXXXXXXX@s.whatsapp.net"; 
 
 const MENU_IMAGE_URL = "https://kommodo.ai/i/jk9yFOZNL7CrnoZYKVKr"; 
